@@ -1,6 +1,9 @@
 flota = []
 
-n_aeronaves = int(input("Numero de aeronaves: "))
+n_aeronaves = int(input("Numero de aeronaves: "))    
+while n_aeronaves < 3:
+    print("Ingresa minimo 3 aeronaves")
+    n_aeronaves = int(input("Numero de aeronaves: "))
 
 for _ in range(n_aeronaves):
     matricula = input("Matricula: ")
