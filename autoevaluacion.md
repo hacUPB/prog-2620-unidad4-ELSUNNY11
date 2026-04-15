@@ -12,8 +12,8 @@
 
 ## 👥 1. Información del Equipo
 
-* **Miembro 1:** [Nombre Completo] - [Código/ID]
-* **Miembro 2:** [Nombre Completo] - [Código/ID]
+* **Miembro 1:** Santiago Marin Betancur - 557188
+* **Miembro 2:** Nicolás Moreno Blandon - 270965
 
 ---
 
@@ -22,18 +22,18 @@
 ### Criterio 1: Diagrama y Lógica (Valor: 20%)
 *Evalúa si el diagrama es claro, lógico y representa fielmente la estructura de datos utilizada (listas/diccionarios) y el flujo del programa.*
 
-* **Nota Esperada (0.0 - 5.0):** [Escribe tu nota aquí]
+* **Nota Esperada (0.0 - 5.0):** 5
 * **Justificación:** 
-  > *[Ejemplo de lo que debes escribir: "Consideramos que merecemos un 4.5 porque nuestro diagrama de bloques ilustra paso a paso cómo se piden los datos de las aeronaves y cómo se guardan en el diccionario principal. Sin embargo, omitimos detallar la validación de errores..."]*
+  > *[Consideramos que nuestro codigo si sigue fielmente el diagrama y la estructura, no hay nada que cambiamos]*
 * **Evidencia:**
-  *Inserta aquí la imagen de tu diagrama (ej. `![Diagrama de Flujo](./img/diagrama.png)`) y explica brevemente cómo se conecta con el código.*
+  *Inserta aquí la imagen de tu diagrama (ej. ![Diagrama de Flujo]() el codigo se conecta a partir de bucles while y for.*
 
 ### Criterio 2: Uso de Estructuras (Listas y Diccionarios) (Valor: 30%)
-*Evalúa si se utilizaron diccionarios y listas de manera correcta y anidada para almacenar los datos ingresados por el usuario, sin redundancias.*
+*Se utilizaron 2 listas y dentro de ellas diccionarios, todo bien estructurado y sin codigo de más*
 
-* **Nota Esperada (0.0 - 5.0):** [Escribe tu nota aquí]
+* **Nota Esperada (0.0 - 5.0):** [4.5]
 * **Justificación:**
-  > *[Explica aquí cómo estructuraste la memoria. Por ejemplo: "Usamos un diccionario principal donde la llave es la matrícula de la aeronave, y el valor es una lista de diccionarios que representan cada componente..."]*
+  > *[Usamos una lista pricipal llamada "Flota" el cual dentro de ella hay un diccionario para cada avión, luego dentro de cada diccionario de avión creamos una lista llamada "componentes" ahí despues se crea un diccionario por componente]*
 * **Evidencia:**
   *Pega aquí el fragmento de código exacto donde inicializas y llenas estas estructuras. Usa el formato de código de Markdown:*
   ```python
@@ -44,9 +44,9 @@
 ### Criterio 3: Cumplimiento de Restricciones Técnicas (Valor: 20%)
 *Evalúa el respeto total a las reglas: uso de ciclos clásicos (for/while), cero uso de list comprehensions, y ninguna librería/función avanzada no vista en clase.*
 
-* **Nota Esperada (0.0 - 5.0):** [Escribe tu nota aquí]
+* **Nota Esperada (0.0 - 5.0):** [5]
 * **Justificación:**
-    > *[Declara aquí formalmente que cumplieron las reglas. Ejemplo: "No utilizamos librerías externas ni list comprehensions. Todos los recorridos para buscar piezas defectuosas se hicieron con ciclos for anidados..."]*
+    > *[No se utilizaron ]*
 * **Evidencia:** *Pega un fragmento de código que demuestre cómo iteraste sobre los datos de forma clásica (sin atajos avanzados).*
 
 ### Criterio 4: Funcionalidad del Código (Valor: 15%)
