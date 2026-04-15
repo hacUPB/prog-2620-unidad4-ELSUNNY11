@@ -5,18 +5,18 @@ vuelo = {'aerolinea': 'Avianca', 'vuelo': 'AV123', 'origen': 'BOG', 'destino': '
 ciudad_llegada = vuelo['destino']
 print(ciudad_llegada)
 
-# Ejercicio 3
+# Modiicación de un valor existente
 vuelo['destino'] = 'CLO'
 print(vuelo["destino"])
 
-# Ejercicio 4
+# Agregar un nuevo par clave-valor
 vuelo['estado'] = 'En el aire'
 print(vuelo["estado"])    
 
-# Ejercicio 5   
+# Uso metodo .get   
 nombre_piloto = vuelo.get('piloto', 'Piloto no asignado')
 print(nombre_piloto)    
 
-# Ejercicio 6   
+# Eliminar un dato   
 del vuelo["vuelo"]  
 print(vuelo)
