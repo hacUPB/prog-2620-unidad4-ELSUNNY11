@@ -72,11 +72,11 @@ Multipliquen la nota asignada en cada criterio por su porcentaje respectivo y su
 
 |Criterio	|Nota |Asignada	|Peso	|Subtotal |(Nota * Peso) |
 |---|---|---|---|---|---|
-|1. Diagrama y Lógica	|[Nota]	|20% |(0.2)	|[Resultado]|
-|2. Uso de Estructuras	|[Nota]	|30% |(0.3)	|[Resultado]|
-|3. Cumplimiento Restricciones|	[Nota]	|20% |(0.2)	|[Resultado]|
-|4. Funcionalidad	|[Nota]	|15% |(0.15)	|[Resultado]|
-|5. Sustentación (Estimado)|	[Nota]|	15%| (0.15)|	[Resultado]|
+|1. Diagrama y Lógica	|5|20% |(0.2)	|1|
+|2. Uso de Estructuras	|4|30% |(0.3)	|1.2|
+|3. Cumplimiento Restricciones|3.5|20% |(0.2)	|0.7|
+|4. Funcionalidad	|3.8|15% |(0.15)	|0.57|
+|5. Sustentación (Estimado)|4|	15%| (0.15)|0.6|
 
 NOTA FINAL ESPERADA		100%	[SUMA TOTAL]
 
